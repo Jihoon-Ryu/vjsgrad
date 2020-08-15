@@ -34,7 +34,7 @@ h1 {
   position : absolute;
   
   top: 3%;
-  left:25%;
+  left:27.5%;
 }
 
 
@@ -44,17 +44,17 @@ h1 {
 .js-form {
   position : absolute;
   top: 110px;
-  left:10px;
+ 
 }
 .js-greetings{
   position : absolute;
   top: 90px;
-  left:10px;
+ 
 }
 .js-toDoForm {
   position: absolute;
   top: 140px;
-  left:10px;
+  
 }
 .pending {
   position: absolute;
@@ -75,7 +75,7 @@ h1 {
 .finished {
   position: absolute;
   top: 400px;
-  left: 750px;
+  left: 790px;
   color: white;
 }
 
@@ -92,7 +92,7 @@ h1 {
   position: absolute;
   color: white;
   top: 120px;
-  left: 320px;
+  left: 350px;
 }
 
 button {
@@ -100,6 +100,7 @@ button {
   border-radius: 50px;
   opacity: 70%;
   font-size: 20px;
+  font-weight: 150%;
   
 }
 
