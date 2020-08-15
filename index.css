@@ -64,7 +64,7 @@ h1 {
 }
 
 .js-toDoList {
-  font-weight: 170%;
+  font-weight: 190%;
   font-size: 25px;
 }
 
@@ -80,7 +80,7 @@ h1 {
 }
 
 .js-finList {
-  font-weight: 170%;
+  font-weight: 190%;
   font-size: 25px;
 }
 
@@ -115,7 +115,7 @@ button {
 
 .input1 {
   position : absolute;
-  opacity: 50%;
+  opacity: 75%;
   border: 1.5px solid black;
   border-radius: 25px;
   
@@ -127,7 +127,7 @@ button {
 
 .input2 {
   position : absolute;
-  opacity: 50%;
+  opacity: 75%;
   border: 1.5px solid black;
   border-radius: 25px;
   
