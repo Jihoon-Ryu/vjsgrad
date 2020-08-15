@@ -115,7 +115,7 @@ button {
 
 .input1 {
   position : absolute;
-  opacity: 76%;
+  opacity: 0.75;
   border: 1.5px solid black;
   border-radius: 25px;
   
@@ -127,7 +127,7 @@ button {
 
 .input2 {
   position : absolute;
-  opacity: 76%;
+  opacity: 0.75;
   border: 1.5px solid black;
   border-radius: 25px;
   
