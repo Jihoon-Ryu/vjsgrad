@@ -1,5 +1,5 @@
 body {
-  background-color: peru;
+ 
 }
 
 .btn {
@@ -24,13 +24,20 @@ h1 {
   display: block;
 }
 
+.js-title {
+  font-size: 150px;
+  color: white;
+}
 
 
 .js-clock {
-  position: absolute;
-  top: 10px;
-  left:10px;
+  position : absolute;
+  
+  top: 3%;
+  left:27.5%;
 }
+
+
 
 .js-weather {
   position: absolute;
@@ -53,10 +60,83 @@ h1 {
   top: 140px;
   left:10px;
 }
-.js-toDoList {
+.pending {
   position: absolute;
-  top: 160px;
-  left: 10px;
+  top: 400px;
+  left: 350px;
+  color: white;
+}
+
+.js-toDoList {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.pendingText {
+  color: white;
+}
+
+.finished {
+  position: absolute;
+  top: 400px;
+  left: 750px;
+  color: white;
+}
+
+.js-finList {
+  font-weight: 170%;
+  font-size: 25px;
+}
+
+.finishedText{
+  color: white;
+}
+
+.js-weather {
+  color: white;
+  top: 120px;
+  left: 350px;
+}
+
+button {
+  background-color: white;
+  border-radius: 50px;
+  opacity: 70%;
+  font-size: 20px;
+  
+}
+
+.greetings {
+  position: absolute;
+  top:270px;
+  left: 485px;
+  font-size: 30px;
+  color: white;
+  opacity: 85%;
+}
+
+.input1 {
+  position : absolute;
+  opacity: 50%;
+  border: 1.5px solid black;
+  border-radius: 25px;
+  
+  font-size: 25px;
+  top: 200px;
+  left: 470px;
+  padding: 2px;
+}
+
+.input2 {
+  position : absolute;
+  opacity: 50%;
+  border: 1.5px solid black;
+  border-radius: 25px;
+  
+  font-size: 25px;
+  top: 220px;
+  left: 470px;
+  padding: 2px;
 }
 
 @keyframes fadeIn {

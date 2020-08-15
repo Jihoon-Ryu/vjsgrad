@@ -2,16 +2,14 @@ const body = document.querySelector("body");
 
 const IMG_NUMBER = 3;
 
+const image = new Image();
+
 function paintImage(randomNumber012) {
-  //이미지 소환
-  const image = new Image();
   image.src = `VJS.images/${randomNumber012 + 1}.jpg`;
-  //이미지 크기 조절 CSS
+
   image.classList.add("bgImage");
-  //?
+
   body.prepend(image);
-  //내용물을 이미지 안에 넣기
-  image.appendChild(".js-clock", ".js-form", ".js-greetings", ".js-toDoForm");
 }
 
 function genRandom() {
@@ -24,5 +22,15 @@ function init() {
   const randomNumber012 = genRandom();
   paintImage(randomNumber012);
 }
+function remove() {
+  const randomNumber012 = genRandom();
+  image.src = `VJS.images/${randomNumber012 + 1}.jpg`;
+  body.prepend(image);
+  body.removeChild(image);
+}
 
+setInterval(remove, 99000);
+remove();
+
+setInterval(init, 100000);
 init();
