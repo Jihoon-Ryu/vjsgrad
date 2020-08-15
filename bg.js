@@ -29,8 +29,8 @@ function remove() {
   body.removeChild(image);
 }
 
-setInterval(remove, 99000);
+setInterval(remove, 59000);
 remove();
 
-setInterval(init, 100000);
+setInterval(init, 60000);
 init();
