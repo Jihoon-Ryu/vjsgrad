@@ -39,11 +39,7 @@ h1 {
 
 
 
-.js-weather {
-  position: absolute;
-  top: 80px;
-  left: 0px;
-}
+
 
 .js-form {
   position : absolute;
@@ -93,9 +89,10 @@ h1 {
 }
 
 .js-weather {
+  position: absolute;
   color: white;
   top: 120px;
-  left: 350px;
+  left: 320px;
 }
 
 button {

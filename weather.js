@@ -13,8 +13,8 @@ function getWeather(lat, lng) {
     .then(function (json) {
       const temperature = json.main.temp;
       const place = json.name;
-      weather.innerText = `Temperature : ${temperature}C 
-      Location : ${place}`;
+      weather.innerText = `Location : ${place}
+      Local Temperature : ${temperature}C`;
     });
 }
 
